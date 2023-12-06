@@ -1,3 +1,8 @@
+/**
+ * Encapsulating what varies. The number of condiments and the method to calculate cost.
+ * Using composition.
+ */
+
 package com.designpatterns.decoratorpattern
 
 /*
@@ -12,7 +17,7 @@ class Mocha(val beverage: Beverage) : CondimentDecorator() { // Every condiment 
     override val description: String
         get() = "${beverage.description} Mocha"
 
-    override fun cost(): Double { // cost() from Beverage abstract class is being overriden here
+    override fun cost(): Double { // cost() from Beverage abstract class is being overridden here
         return beverage.cost() + .20
     }
 }
