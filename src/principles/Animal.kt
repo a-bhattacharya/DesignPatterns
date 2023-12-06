@@ -3,7 +3,7 @@
 package com.designpatterns.principles
 
 abstract class Animal {
-    abstract fun makeSound();
+    abstract fun makeSound()
 }
 
 class Dog(val name: String) : Animal() {
