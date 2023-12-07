@@ -1,5 +1,5 @@
 package com.designpatterns
 
 fun main() {
-    println("Hello World!")
+    println("Welcome to Design Patterns!")
 }
